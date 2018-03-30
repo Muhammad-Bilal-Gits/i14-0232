@@ -43,6 +43,11 @@ public class Hostel {
 		System.out.println("Sending rooms to inser query room=" + this.hostelRooms.size());
 		return insertHostel.InsertIntoHostel(this);   // Call DAL Controller..........
 	}
+
+public void newFunc()
+	{
+		System.out.println("just checking commit");
+	}
 	
 	public boolean updateHostelStatus(String hostelID , char status ){
 		
