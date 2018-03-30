@@ -4,7 +4,7 @@
   <artifactId>maven-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-    <dependencies>
+  <dependencies>
   	<dependency>
 	    <groupId>junit</groupId>
 	    <artifactId>junit</artifactId>
@@ -12,5 +12,5 @@
 	    <scope>test</scope>
  	</dependency>
  </dependencies>
- 
+
 </project>
